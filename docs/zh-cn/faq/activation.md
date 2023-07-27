@@ -1,38 +1,33 @@
 # 激活问题
 
-## 软件授权服务报告许可证使用失败
+## 0xC004E015
 
-错误代码: 0xC004E015
+错误信息：软件授权服务报告许可证使用失败
 
-### 解决方案
+请参考[重建 Windows 激活令牌](/zh-cn/toolbox/windows.md#重建-windows-激活令牌)
 
-自动处理：转到 Office Tool Plus 的工具箱，修复 Office 的激活，然后重新开始激活。
+## 0x8004E108
 
----
+错误信息：软件授权服务报告令牌存储中的令牌包含无效的哈希
 
-手动处理：
+解决方案[同上](activation.md#_0xc004e015)。
 
-停止计算机中的 `Software Protection` 服务，然后将 `C:\Windows\System32\spp\store\2.0` 下的 (.dat) 文件全部删除（Windows Insider 文件夹为 store_test）。
+## 0x8007000D
 
-最后再重新开始激活。
-
-**注意：安装完许可证后，请等待三分钟后再继续操作，以免问题复现，否则需要重新开始。**
-
-## 软件授权服务报告令牌存储中的令牌包含无效的哈希
-
-错误代码：0x8004E108
-
-解决方案同上。
-
-## 数据无效 (0x8007000D)
+错误信息：数据无效
 
 确保以下事项没有问题：
 
 - 系统时间正确。
-- 你正在使用的 KMS 主机能够正常工作。[如何测试？](/zh-cn/others/toolbox.html#检查-kms-可用性)
+- 你正在使用的 KMS 主机能够正常工作。[如何测试？](/docs/zh-cn/toolbox/#测试-kms-主机可用性)
 
 然后做以下事情:
 
-- 重置 Software Protection 服务，你可以在工具箱页面找到该选项。
-- 设置 KMS 主机和端口，默认端口是 1688.
+- [重置 Software Protection 服务](/zh-cn/toolbox/windows.md#重置-software-protection-服务)。
 - 再次尝试激活。
+
+## 0x8007007B
+
+错误信息：文件名、目录名或卷标语法不正确
+
+解决方案[同上](activation.md#_0x8007000d)。
