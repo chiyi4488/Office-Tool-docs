@@ -4,8 +4,10 @@
 - <kbd>F1</kbd>: 显示帮助
 - <kbd>Ctrl + 1</kbd>: 切换到主页
 - <kbd>Ctrl + 2</kbd>: 切换到部署页面
+- <kbd>Ctrl + Alt + 2</kbd>: 切换到部署 - 高级设置页面
 - <kbd>Ctrl + 3</kbd>: 切换到激活页面
 - <kbd>Ctrl + 4</kbd>: 切换到工具箱页面
+- <kbd>Ctrl + Alt + 4</kbd>: 切换到 Office 更新通道查询页面
 - <kbd>Ctrl + 5</kbd>: 切换到文档转换页面
 - <kbd>Ctrl + 6</kbd>: 切换到哈希值校验页面
 - <kbd>Ctrl + 7</kbd>: 切换到设置页面
