@@ -6,6 +6,7 @@
   "author": "Yerong",
   "license": "MIT",
   "devDependencies": {
+    "@vuepress/plugin-search": "^2.0.0-beta.66",
     "vuepress": "^2.0.0-beta.66"
   },
   "scripts": {

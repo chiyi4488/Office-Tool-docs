@@ -1,5 +1,6 @@
 import { defineUserConfig } from '@vuepress/cli'
 import { defaultTheme } from '@vuepress/theme-default'
+import { searchPlugin } from '@vuepress/plugin-search'
 import {
   head,
   navbarEnUS,
@@ -26,6 +27,19 @@ export default defineUserConfig({
       description: 'Office Tool Plus 帮助文档',
     },
   },
+
+  plugins: [
+    searchPlugin({
+      locales: {
+        '/': {
+          placeholder: 'Search'
+        },
+        '/zh-cn/': {
+          placeholder: '搜索'
+        },
+      },
+    }),
+  ],
 
   // configure default theme
   theme: defaultTheme({
