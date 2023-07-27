@@ -1,0 +1,1 @@
+const o="/docs/images/zh-cn/product-owner.png",c="/docs/images/zh-cn/activation/check-vNext-license.png",s="/docs/images/zh-cn/toolbox/change-license-owner.png",n="/docs/images/zh-cn/toolbox/change-product-owner.png";export{o as _,c as a,s as b,n as c};
