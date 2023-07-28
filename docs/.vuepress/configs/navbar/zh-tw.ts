@@ -1,46 +1,42 @@
 import type { NavbarConfig } from '@vuepress/theme-default'
 
-export const navbarZhCN: NavbarConfig = [
+export const navbarZhTW: NavbarConfig = [
     {
         text: '入门',
-        link: '/zh-cn/start/'
+        link: '/zh-tw/start/'
     },
     {
         text: '部署',
-        link: '/zh-cn/deploy/'
+        link: '/zh-tw/deploy/'
     },
     {
         text: '激活',
-        link: '/zh-cn/activate/'
+        link: '/zh-tw/activate/'
     },
     {
         text: '常见问题',
-        link: '/zh-cn/faq/'
+        link: '/zh-tw/faq/'
     },
     {
         text: '更多',
         children: [
             {
                 text: '工具箱',
-                link: '/zh-cn/toolbox/'
+                link: '/zh-tw/toolbox/'
             },
             {
                 text: '设置',
-                link: '/zh-cn/settings/'
+                link: '/zh-tw/settings/'
             },
             {
                 text: '命令',
-                link: '/zh-cn/commands/'
+                link: '/zh-tw/commands/'
             }
         ]
     },
     {
         text: '群组',
         children: [
-            {
-                text: 'QQ | 微信',
-                link: 'https://otp.landian.vip/grouplink/qq.html'
-            },
             {
                 text: 'Telegram',
                 link: 'https://otp.landian.vip/grouplink/telegram.html'

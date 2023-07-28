@@ -34,4 +34,17 @@ export const navbarEnUS: NavbarConfig = [
             }
         ]
     },
+    {
+        text: 'Groups',
+        children: [
+            {
+                text: 'Telegram',
+                link: 'https://otp.landian.vip/grouplink/telegram.html'
+            },
+            {
+                text: 'Discord',
+                link: 'https://discord.gg/TpXTgfgf2a'
+            }
+        ]
+    }
 ]

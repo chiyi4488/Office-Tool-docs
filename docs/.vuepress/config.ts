@@ -5,8 +5,10 @@ import {
   head,
   navbarEnUS,
   navbarZhCN,
+  navbarZhTW,
   sidebarEnUS,
   sidebarZhCN,
+  sidebarZhTW,
 } from './configs/index.js'
 
 export default defineUserConfig({
@@ -26,6 +28,11 @@ export default defineUserConfig({
       title: 'Office Tool Plus 文档',
       description: 'Office Tool Plus 帮助文档',
     },
+    '/zh-tw/': {
+      lang: 'zh-TW',
+      title: 'Office Tool Plus 文档',
+      description: 'Office Tool Plus 帮助文档',
+    }
   },
 
   plugins: [
@@ -37,6 +44,9 @@ export default defineUserConfig({
         '/zh-cn/': {
           placeholder: '搜索'
         },
+        '/zh-tw/': {
+          placeholder: '搜索'
+        }
       },
     }),
   ],
@@ -50,12 +60,7 @@ export default defineUserConfig({
 
     // theme-level locales config
     locales: {
-      /**
-       * English locale config
-       *
-       * As the default locale of @vuepress/theme-default is English,
-       * we don't need to set all of the locale fields
-       */
+       // English locale config
       '/': {
         // navbar
         navbar: navbarEnUS,
@@ -72,6 +77,37 @@ export default defineUserConfig({
         selectLanguageAriaLabel: '选择语言',
         // sidebar
         sidebar: sidebarZhCN,
+        // page meta
+        editLinkText: '在 GitHub 上编辑此页',
+        lastUpdatedText: '上次更新',
+        contributorsText: '贡献者',
+        // custom containers
+        tip: '提示',
+        warning: '注意',
+        danger: '警告',
+        // 404 page
+        notFound: [
+          '这里什么都没有',
+          '我们怎么到这来了？',
+          '这是一个 404 页面',
+          '看起来我们进入了错误的链接',
+        ],
+        backToHome: '返回首页',
+        // a11y
+        openInNewWindow: '在新窗口打开',
+        toggleColorMode: '切换颜色模式',
+        toggleSidebar: '切换侧边栏'
+      },
+
+      // 
+      '/zh-tw/': {
+        // navbar
+        navbar: navbarZhTW,
+        selectLanguageName: '简体中文',
+        selectLanguageText: 'Languages',
+        selectLanguageAriaLabel: '选择语言',
+        // sidebar
+        sidebar: sidebarZhTW,
         // page meta
         editLinkText: '在 GitHub 上编辑此页',
         lastUpdatedText: '上次更新',
