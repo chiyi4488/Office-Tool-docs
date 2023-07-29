@@ -11,8 +11,8 @@ Open Office Tool Plus, go to deploy page, do the folowing things:
 
 You may need to configure these options:
 
-- Architecture: [Click here for more information](/docs/deploy/basic-settings.html#architecture).
-- Channel: If you want to install Office 2019/2021 Volume License products, you need to change channel to Office 2019/2021 Perpetual Enterprise. For more information please [see the channel information](/docs/deploy/basic-settings.html#channels).
+- Architecture: [Click here for more information](/deploy/basic-settings.md#architecture).
+- Channel: If you want to install Office 2019/2021 Volume License products, you need to change channel to Office 2019/2021 Perpetual Enterprise. For more information please [see the channel information](/deploy/basic-settings.md#channels).
 
 When everything is done, you can `Start deploy` now. The Office installer will only download required files and install Office from Office CDN. Internet connection required, but may consume less data traffic. After installation, the installer will clean up the cache.
 

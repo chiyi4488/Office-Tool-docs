@@ -21,7 +21,7 @@ Office 安装包包含 Office、Visio 和 Project，由微软提供，无法精�
 - 开发内部 Office 解决方案，例如加载项或文档级别的自定义。 使用 64 位版 Office 将允许你提供这些解决方案的 64 位版和 32 位版。
 - Access 中的 Long Long 数据类型，虽然 32 位 Access 支持此数据类型，但在使用 32 位 VBA 库的代码或表达式时可能会看到意外结果。 64 位 VBA 提供 Long Long 数据类型的完整支持。
 
-如果需要了解详细信息，请参阅[选择 64 位或 32 位版本的 Office](https://support.microsoft.com/zh-cn/office/选择-64-位或-32-位版本的-Office-2dee7807-8f95-4d0c-b5fe-6c6f49b8d261)
+如果需要了解详细信息，请参阅[選擇 64 位元或 32 位元版的 Office](https://support.microsoft.com/zh-tw/office/選擇-64-位元或-32-位元版的-office-2dee7807-8f95-4d0c-b5fe-6c6f49b8d261)
 
 ::: tip 提示
 
@@ -47,7 +47,7 @@ Office 安装包包含 Office、Visio 和 Project，由微软提供，无法精�
 
 每个通道都会在每个月的第二个星期二发布安全更新（如果需要），这是设定好的计划。
 
-如果需要了解详细信息，请参阅 [Microsoft 365 应用版的更新通道概述](https://docs.microsoft.com/zh-cn/deployoffice/overview-update-channels)。
+如果需要了解详细信息，请参阅 [Microsoft 365 应用版的更新通道概述](https://docs.microsoft.com/zh-tw/deployoffice/overview-update-channels)。
 
 ## 安装模块
 
@@ -100,7 +100,7 @@ Office 部署工具是微软官方工具，提供了部署 Office 的完整支�
 
 Groove 代表的是 OneDrive for Business, Lync 代表的是 Skype for Business. 某些应用程序（例如 Teams 和 OneDrive）可能需要重启系统才能完成安装。
 
-Bing 是一个用于 Chrome 和 Edge 的扩展，若要获取更多信息，请访问 [Microsoft 必应搜索和 Microsoft 365 企业应用版](https://docs.microsoft.com/zh-cn/deployoffice/microsoft-search-bing).
+Bing 是一个用于 Chrome 和 Edge 的扩展，若要获取更多信息，请访问 [Microsoft 必应搜索和 Microsoft 365 企业应用版](https://docs.microsoft.com/zh-tw/deployoffice/microsoft-search-bing).
 
 选择 Visio 或 Project 等产品时，由于其本身为一个不可选组件，因此不会出现在应用程序列表中。
 

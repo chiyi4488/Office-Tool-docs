@@ -2,7 +2,7 @@
 
 创建 Office ISO 前，您需要在 Office Tool Plus 的根目录（Office Tool 文件夹）内创建批处理文件，例如 Setup.bat。
 
-您可以使用 [deploy](/docs/zh-cn/others/commands.html#部署命令) 命令完全自定义您的 Office 安装。
+您可以使用 [deploy](/zh-cn/others/commands.md#部署命令) 命令完全自定义您的 Office 安装。
 
 例如以下示例安装简体中文 32 位的 Microsoft 365，排除 Access, Bing, Groove, Lync, OneDrive 应用程序：
 

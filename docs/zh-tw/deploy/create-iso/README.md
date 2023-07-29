@@ -16,13 +16,13 @@ Office 会固定在每个月的第二个星期二（太平洋时间）更新一�
 
 Office Tool Plus 默认下载适合当前操作系统的 Office 版本。若要下载适用于其他 Windows 的 Office 版本，请更改**设置 - 下载 - Windows 版本**。
 
-![Download settings](/images/zh-cn/settings/download-settings.png)
+![Download settings](/images/zh-tw/settings/download-settings.png)
 
 Office Tool Plus 在 ISO 模式中工作时会自动调整一些设置，您无需更改我们没有在教程中提到的设置。
 
 ## 获取合适的 Office Tool Plus 版本
 
-我们建议您[下载](/docs/zh-cn/start/#下载)包含框架的 Office Tool Plus。不需要在客户端上安装 .NET Desktop Runtime 即可运行 Office Tool Plus。
+我们建议您[下载](/zh-cn/start/README.md#下载)包含框架的 Office Tool Plus。不需要在客户端上安装 .NET Desktop Runtime 即可运行 Office Tool Plus。
 
 如果您决定创建 64 位的 Office ISO，您可以下载 64 位版本的 Office Tool Plus。否则您应该下载 32 位的 Office Tool Plus。
 

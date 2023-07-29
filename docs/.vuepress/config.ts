@@ -1,6 +1,7 @@
 import { defineUserConfig } from '@vuepress/cli'
 import { defaultTheme } from '@vuepress/theme-default'
 import { searchPlugin } from '@vuepress/plugin-search'
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 import {
   head,
   navbarEnUS,
@@ -12,7 +13,7 @@ import {
 } from './configs/index.js'
 
 export default defineUserConfig({
-  base: '/docs/',
+  base: '/',
 
   head,
 
@@ -45,9 +46,12 @@ export default defineUserConfig({
           placeholder: '搜索'
         },
         '/zh-tw/': {
-          placeholder: '搜索'
+          placeholder: '搜尋'
         }
       },
+    }),
+    googleAnalyticsPlugin({
+      id: 'G-L3WG8DCE0S'
     }),
   ],
 
@@ -103,7 +107,7 @@ export default defineUserConfig({
       '/zh-tw/': {
         // navbar
         navbar: navbarZhTW,
-        selectLanguageName: '简体中文',
+        selectLanguageName: '繁體中文',
         selectLanguageText: 'Languages',
         selectLanguageAriaLabel: '选择语言',
         // sidebar

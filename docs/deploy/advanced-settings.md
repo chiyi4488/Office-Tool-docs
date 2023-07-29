@@ -20,7 +20,7 @@ If you have downloaded Office installations, the versions of all Office installa
 
 ### Source path
 
-If you have the Office installation, you should select the file in the [Installation files](/docs/deploy/basic-settings.html#installation-files) instead of writing the path here.
+If you have the Office installation, you should select the file in the [Installation files](/deploy/basic-settings.md#installation-files) instead of writing the path here.
 
 ## Application preferences
 

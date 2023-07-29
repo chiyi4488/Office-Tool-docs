@@ -20,7 +20,7 @@
 
 ### 源路径
 
-如果你在本地有 Office 安装包，则应该在[安装文件管理](/docs/zh-cn/deploy/settings/basic.html#安装文件)中选择文件，而不是在此处写入路径。
+如果你在本地有 Office 安装包，则应该在[安装文件管理](/zh-cn/deploy/settings/basic.md#安装文件)中选择文件，而不是在此处写入路径。
 
 ## 激活设置
 

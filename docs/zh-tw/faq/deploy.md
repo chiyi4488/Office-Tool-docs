@@ -8,10 +8,10 @@ Microsoft 365 应用可能无法在老旧的系统上安装或运行。微软强
 
 获取更多信息请访问:
 
-- [Windows 7 支持终止和 Microsoft 365 应用](https://docs.microsoft.com/zh-cn/deployoffice/endofsupport/windows-7-support).
-- [Windows 8 支持终止和 Microsoft 365 应用](https://docs.microsoft.com/zh-cn/deployoffice/endofsupport/windows-8-support).
-- [Windows 8.1 支持终止和 Microsoft 365 应用](https://docs.microsoft.com/zh-cn/deployoffice/endofsupport/windows-81-support).
-- [Windows Server 支持终止和 Microsoft 365 应用](https://docs.microsoft.com/zh-cn/deployoffice/endofsupport/windows-server-support).
+- [Windows 7 支持终止和 Microsoft 365 应用](https://docs.microsoft.com/zh-tw/deployoffice/endofsupport/windows-7-support).
+- [Windows 8 支持终止和 Microsoft 365 应用](https://docs.microsoft.com/zh-tw/deployoffice/endofsupport/windows-8-support).
+- [Windows 8.1 支持终止和 Microsoft 365 应用](https://docs.microsoft.com/zh-tw/deployoffice/endofsupport/windows-81-support).
+- [Windows Server 支持终止和 Microsoft 365 应用](https://docs.microsoft.com/zh-tw/deployoffice/endofsupport/windows-server-support).
 
 ::: warning 注意
 即使你更改安装模块，你也无法在 Windows 7 中安装 Office 2019/2021.

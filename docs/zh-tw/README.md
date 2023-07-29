@@ -5,7 +5,7 @@ heroText:
 tagline: 一个强大且实用的 Office 部署工具
 actions:
   - text: 开始
-    link: /zh-cn/start/
+    link: /zh-tw/start/
 features:
 - title: 简单
   details: 只需几步配置，便可开始部署 Office.

@@ -4,7 +4,7 @@
 
 ## 程序内命令
 
-这些命令只能在命令框中使用。
+这些命令只能在命令框中使用。命令框可以点击按钮打开，也可以按下快捷键 <kbd>Ctrl + Shift + P</kbd> 打开。
 
 ![Command box](/images/zh-cn/command-box.png)
 

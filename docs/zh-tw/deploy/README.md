@@ -11,7 +11,7 @@
 - 添加产品
 - 添加语言
 
-产品和语言请根据自己的需求添加。如果不知道应该添加什么产品，请参阅[产品](/docs/zh-cn/deploy/settings/basic.html#产品)部分。
+产品和语言请根据自己的需求添加。如果不知道应该添加什么产品，请参阅[产品](/zh-cn/deploy/settings/basic.md#产品)部分。
 
 ---
 
@@ -19,15 +19,15 @@
 
 ### 体系结构
 
-如果您不了解体系结构，保持默认的 32 位即可。更多信息请查看[体系结构](/docs/zh-cn/deploy/settings/basic.html#体系结构)部分。
+如果您不了解体系结构，保持默认的 32 位即可。更多信息请查看[体系结构](/zh-cn/deploy/settings/basic.md#体系结构)部分。
 
 ### 更新通道
 
-如果你需要安装 Office 2019/2021 批量许可证产品，你需要更改通道为 Office 2019/2021 企业长期版，其他时候只需要使用默认通道即可，更多信息请查看[更新通道](/docs/zh-cn/deploy/settings/basic.html#更新通道)部分。
+如果你需要安装 Office 2019/2021 批量许可证产品，你需要更改通道为 Office 2019/2021 企业长期版，其他时候只需要使用默认通道即可，更多信息请查看[更新通道](/zh-cn/deploy/settings/basic.md#更新通道)部分。
 
 ### 应用程序
 
-一些产品通常带有许多应用程序，例如 Word, PowerPoint, Excel, Outlook, OneNote, Publisher 等。我们通常建议只选择您需要的应用程序进行部署即可，例如常用的 Word, PowerPoint 和 Excel。更多信息请查看[应用程序](/docs/zh-cn/deploy/settings/basic.html#应用程序)部分。
+一些产品通常带有许多应用程序，例如 Word, PowerPoint, Excel, Outlook, OneNote, Publisher 等。我们通常建议只选择您需要的应用程序进行部署即可，例如常用的 Word, PowerPoint 和 Excel。更多信息请查看[应用程序](/zh-cn/deploy/settings/basic.md#应用程序)部分。
 
 ### 下载后再部署
 
@@ -48,7 +48,7 @@
 
 如果您的文件类型是镜像文件（.iso），请双击打开、挂载，您也可以将其解压到某个文件夹中。如果您的文件类型是压缩包（例如 .zip, .7z, .rar），请将其解压到某个文件夹中。
 
-挂载/解压后，如果文件中包含 Office Tool Plus，请双击并打开 Office Tool Plus。如果没有，请先[下载](/docs/zh-cn/start/#下载)并打开 Office Tool Plus 然后再继续操作。
+挂载/解压后，如果文件中包含 Office Tool Plus，请双击并打开 Office Tool Plus。如果没有，请先[下载](/zh-cn/start/README.md#下载)并打开 Office Tool Plus 然后再继续操作。
 
 打开 Office Tool Plus 后，转到部署页面，确保安装文件能够正确加载并识别。如果没有，请点击`选择`按钮并根据提示选择 Office 安装文件。
 
@@ -62,9 +62,9 @@ Office 安装文件应该能够完整展示版本号和语言包信息，并且�
 
 安装文件加载后，请进行如下配置：
 
-- 添加[产品](/docs/zh-cn/deploy/settings/basic.html#产品)
+- 添加[产品](/zh-cn/deploy/settings/basic.md#产品)
 - 添加语言
-- 配置[应用程序](/docs/zh-cn/deploy/settings/basic.html#应用程序)（如果需要）
+- 配置[应用程序](/zh-cn/deploy/settings/basic.md#应用程序)（如果需要）
 
 体系结构和更新通道已根据安装文件自动匹配，因此您无法再更改，除非您有多个安装文件。语言也应当与安装文件的一致，如果安装文件不包含您所添加的语言，则安装时依然需要联网，否则安装会失败。
 

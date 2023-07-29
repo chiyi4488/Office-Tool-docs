@@ -1,38 +1,62 @@
 # Activation Questions
 
-## The Software Licensing Service reported that license consumption failed
+## 0x80131500
 
-Error code: 0xC004E015
+此错误代码没有准确意义，请参考给出的错误信息进行问题排查。
 
-Solution
+## 0xC004F015
 
----
+错误信息：软件授权服务报告许可证未安装。
 
-Automatic operation: Rebuild activation token, you can find the option in the Toolbox page. Then retry to activate Office.
+如果您的 Office 已经激活，则不需要理会此消息。
 
----
+如果您的 Office 尚未激活，请检查自己的操作步骤是否有错误，是否安装了正确的 Office 许可证，或者向微软购买 Office 许可证授权。
 
-Manual operation: Stop `Software Protection` service, delete dat files on `C:\Windows\System32\spp\store\2.0` (on Windows Insider, the folder name is store_test). Then retry to activate Office.
+## 0xC004F017
 
-After installed Office licenses, wait three minutes, then continue your operation.
+错误信息：软件授权服务报告许可证未安装。
 
-**If the problem is not resolved, you may need to try again.**
+解决方案[同上](activation.md#_0xc004f015)。
 
-## The Software Licensing Service reported that a token in the Token Store contains an invalid hash
+## 0xC004F069
 
-Error code: 0x8004E108
+错误信息：软件授权服务报告找不到产品 SKU。
 
-Solution is same as the previous item.
+这个错误代码表示你正在安装的 Office 产品密钥没有对应的许可证，你需要先安装对应的 Office 许可证，然后再安装这个产品密钥。
 
-## The data is invalid (0x8007000D)
+## 0xC004E015
 
-Make sure:
+错误信息：软件授权服务报告许可证使用失败
 
-- Your system time is correct.
-- The KMS host you are using is working fine. [How to test?](/others/toolbox.html#check-kms-status)
+请参考[重建 Windows 激活令牌](/zh-cn/toolbox/windows.md#重建-windows-激活令牌)。
 
-Then do the following things:
+## 0x8004E108
 
-- Reset Software Protection service, you can find the option on toolbox page.
-- Set KMS host and port, the default port is 1688.
-- Try to activate again.
+错误信息：软件授权服务报告令牌存储中的令牌包含无效的哈希
+
+解决方案[同上](activation.md#_0xc004e015)。
+
+## 0x8007000D
+
+错误信息：数据无效
+
+确保以下事项没有问题：
+
+- 系统时间正确。
+- 你正在使用的 KMS 主机能够正常工作。[如何测试？](/zh-cn/toolbox/README.md#测试-kms-主机可用性)
+
+然后做以下事情:
+
+- [重置 Software Protection 服务](/zh-cn/toolbox/windows.md#重置-software-protection-服务)。
+- 再次尝试激活。
+
+## 0x8007007B
+
+错误信息：文件名、目录名或卷标语法不正确
+
+解决方案[同上](activation.md#_0x8007000d)。
+
+## 尚无解决方案的错误
+
+- 错误代码：0x80040154，没有注册类。
+- 错误代码：0x80070002，系统找不到指定的文件。

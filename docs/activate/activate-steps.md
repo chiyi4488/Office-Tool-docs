@@ -1,18 +1,27 @@
-# Activation steps
+# 激活步骤
 
-## Key activation (online activation)
+## 密钥激活（联网激活）
 
-Type in your Office product key in "Key management" and click "install key", and click *Activate*.
+在密钥管理中输入你的 Office 产品密钥并点击`安装密钥`，然后点击 `激活` 即可。
 
-If it reports a "product SKU not found" error,  install the correct license first.
+::: tip 提示
 
-## Phone activation (offline activation)
+如果安装 Office 产品密钥时显示错误代码 [0xC004F069](/zh-cn/faq/activation.md#_0xc004f069)，先安装对应产品的 Office 许可证，然后再试。
 
-After you make sure you have installed the right key, click "view installation ID" in the menu of "key management", and install the CID you finally get.
+:::
 
-If it reports a "product SKU not found" error,  install the correct license first.
+## 电话激活（脱机激活）
 
-## KMS activation (Internet connection required)
+在密钥管理中输入你的 Office 产品密钥并点击`安装密钥`，然后在`许可证列表`中点击刷新，找到想要激活的许可证，展开，并点击`复制安装 ID`。
 
-Choose and install a volume license in "license management". Then set a KMS host in "KMS management". Click on *Set KMS host* and then click *Activate*.
+使用这个 *安装 ID* 通过微软官方途径获得 *确认 ID*，然后在`密钥管理`的按钮菜单中选择`安装确认 ID`，安装你获取到的*确认 ID* 即可。
 
+::: tip 提示
+
+如果安装 Office 产品密钥时显示错误代码 [0xC004F069](/zh-cn/faq/activation.md#_0xc004f069)，先安装对应产品的 Office 许可证，然后再试。
+
+:::
+
+## KMS 激活（需连接 KMS 主机）
+
+在许可证管理中安装对应产品的批量许可证，然后在 KMS 管理中设置一个 KMS 主机，最后点击 `激活` 即可。

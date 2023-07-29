@@ -14,13 +14,13 @@
 
 ### Office 版本
 
-如果你需要安装 Office 的历史版本，你可以从 [Microsoft 文档](https://docs.microsoft.com/zh-cn/officeupdates/update-history-microsoft365-apps-by-date)获取可用的 Office 历史版本。
+如果你需要安装 Office 的历史版本，你可以从 [Microsoft 文档](https://docs.microsoft.com/zh-tw/officeupdates/update-history-microsoft365-apps-by-date)获取可用的 Office 历史版本。
 
 如果你下载了 Office 安装包，则此处会显示相应通道下所有 Office 安装包的版本。
 
 ### 源路径
 
-如果你在本地有 Office 安装包，则应该在[安装文件管理](/docs/zh-cn/deploy/settings/basic.html#安装文件)中选择文件，而不是在此处写入路径。
+如果你在本地有 Office 安装包，则应该在[安装文件管理](/zh-cn/deploy/settings/basic.md#安装文件)中选择文件，而不是在此处写入路径。
 
 ## 激活设置
 
@@ -38,4 +38,4 @@
 
 ## 其他选项
 
-其他选项介绍以及用法在[微软官方文档](https://docs.microsoft.com/zh-cn/deployoffice/office-deployment-tool-configuration-options)中有详细介绍，使用方法相同，在这里不再重复叙述。
+其他选项介绍以及用法在[微软官方文档](https://docs.microsoft.com/zh-tw/deployoffice/office-deployment-tool-configuration-options)中有详细介绍，使用方法相同，在这里不再重复叙述。

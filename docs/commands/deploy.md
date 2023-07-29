@@ -15,7 +15,7 @@ deploy /addProduct O365ProPlusRetail
 | /addProduct *values[]* | 添加产品 | values: productID_language_excludeApps_MAK，**其中 productID 为必需参数**。使用方法见[部署示例](deploy.md#部署-office-示例)。 |
 | /removeProduct *values[]* | 卸载产品 | values: productID_language，使用方法同 /addProduct |
 | /removeAll | 卸载全部产品 |  |
-| /channel *value* | 设置通道 | *value*: 通道 ID，默认值为 *Current*，[更多信息](/docs/zh-cn/deploy/settings/basic.html#更新通道) |
+| /channel *value* | 设置通道 | *value*: 通道 ID，默认值为 *Current*，[更多信息](/zh-cn/deploy/settings/basic.md#更新通道) |
 | /clientEdition *value* | 设置体系结构 | *value*: 32 或 64，默认值为 32。 |
 | /migrateArch | 迁移体系结构 |  |
 | /version *value* | 设置 Office 版本号 | *value*: Office 版本号。 |
