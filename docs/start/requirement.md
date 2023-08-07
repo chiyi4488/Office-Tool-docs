@@ -4,6 +4,7 @@
 
 - Windows 10 or highter.
 - Windows Server 2016 or higher.
+- Architecture: x86, x64 or ARM64.
 
 > Office Tool Plus doesn't support macOS or Linux.
 

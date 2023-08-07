@@ -51,7 +51,6 @@ Extract Office Tool Plus to a normal location, such as desktop. **Do NOT run Off
 - Integrated Office tools, including resetting settings, fixing Office problems.
 - Convert Office documents, based on Office COM. it's fast and stable.
 - Personalize theme, you can build your special Office Tool Plus.
-- Advanced settings allow you to use more advanced features, such as Office internal channels.
 
 ::: tip Attention
 
