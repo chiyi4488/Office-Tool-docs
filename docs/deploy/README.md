@@ -4,43 +4,43 @@ When deploying Office, installation and uninstallation can occur simultaneously,
 
 ## Online installation
 
-在线安装需要使用网络数据，如果您的网络环境较差，可能会需要较长的时间完成安装。
+Online installation requires internet connection. If you have a bad connection installation may take longer to complete.
 
-打开 Office Tool Plus，转到部署页面，以下是需要做的事情：
+Open Office Tool Plus, goto deploy page and do the following things:
 
 - Add product(s).
 - Add language(s).
 
-产品和语言请根据自己的需求添加。如果不知道应该添加什么产品，请参阅[产品](/deploy/settings/basic.md#产品)部分。
+Add products and languages according to your needs. If you don't know what products to add, please check [products](/deploy/settings/basic.md#products) section.
 
 ---
 
-如果有需要，您还可以检查如下配置。
+If needed, you can also check the following configuration.
 
 ### Architecture
 
-如果您不了解体系结构，保持默认的 32 位即可。更多信息请查看[体系结构](/deploy/settings/basic.md#体系结构)部分。
+By default, 32-bit Office will be installed. For more information please check [architecture](/deploy/settings/basic.md#architecture) section.
 
 ### Update channel
 
-如果你需要安装 Office 2019/2021 批量许可证产品，你需要更改通道为 Office 2019/2021 企业长期版，其他时候只需要使用默认通道即可，更多信息请查看[更新通道](/deploy/settings/basic.md#更新通道)部分。
+If you want to install Office 2019/2021 volume products, you need to configure update channel to Office 2019/2021 Perpetual Enterprise channel. Other times just use the default channel. For more information please check [update channel](/deploy/settings/basic.md#update-channel) section.
 
 ### Applications
 
-一些产品通常带有许多应用程序，例如 Word, PowerPoint, Excel, Outlook, OneNote, Publisher 等。我们通常建议只选择您需要的应用程序进行部署即可，例如常用的 Word, PowerPoint 和 Excel。更多信息请查看[应用程序](/deploy/settings/basic.md#应用程序)部分。
+We usually recommend just selecting the applications which you need, such as the Word, PowerPoint and Excel. For more information please check [applications](/deploy/settings/basic.md#applications) section.
 
-### 下载后再部署
+### Download first
 
-此选项为关闭状态时，Office 将会下载时部署，打开时为下载后部署。
+When this option is off, Office will be deployed during downloading, and when it is on, it will be deployed after downloaded.
 
 ![Download first](/images/en-us/deploy/download-first.png)
 
-- 下载时部署：这个模式下无法暂停或取消。Office 安装程序会从 Office CDN 下载安装所需的文件，然后再进行安装。如果因为网络问题而导致文件无法下载，Office 安装程序会卡在一定的进度，无法继续部署。
-- 下载后部署：下载通常由 Office Tool Plus 进行，因此在开始安装前，您可以随时取消或暂停下载。下载完成后，Office 的安装不依赖网络，不会受网络影响。
+- Deploy during downloading: you can't pause or cancel the installation at that moment. Office installer will download and install Office from Office CDN. If you have a bad internet connection, the installation may get stuck.
+- Deploy after downloaded: the operation is usually performed by Office Tool Plus, so you can cancel or pause the download before the installation begins. Once the download is complete, you can go offline when installting Office.
 
 ---
 
-配置完成且无报错后，即可开始部署 Office。Office 安装程序会从 Office CDN 下载所需的文件，因此网络质量可能会影响你的安装用时，但消耗的数据流量可能会更少。安装完成后，Office 安装包不会储存在本地，在安装完成时由 Office 安装程序进行清理。
+Once the configuration is complete and no errors, you can begin deploying Office.
 
 ## Offline installation
 
@@ -62,9 +62,9 @@ Office 安装文件应该能够完整展示版本号和语言包信息，并且�
 
 安装文件加载后，请进行如下配置：
 
-- Add [product(s)](/deploy/settings/basic.md#产品).
+- Add [product(s)](/deploy/settings/basic.md#products).
 - Add language(s).
-- Configure [applications](/deploy/settings/basic.md#应用程序) (if needed).
+- Configure [applications](/deploy/settings/basic.md#applications) (if needed).
 
 体系结构和更新通道已根据安装文件自动匹配，因此您无法再更改，除非您有多个安装文件。语言也应当与安装文件的一致，如果安装文件不包含您所添加的语言，则安装时依然需要联网，否则安装会失败。
 

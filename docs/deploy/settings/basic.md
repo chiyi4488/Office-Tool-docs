@@ -1,6 +1,6 @@
 # 基础设置
 
-## 部署模式
+## Mode
 
 | 模式          | 说明 |
 | ------------- | ----- |
@@ -11,7 +11,7 @@
 
 Office 安装包包含 Office、Visio 和 Project，由微软提供，无法精简。
 
-## 体系结构
+## Architecture
 
 通常情况下，我们建议你安装 32 位的 Office，但如果存在下列情况，则推荐安装 64 位的 Office:
 
@@ -29,7 +29,7 @@ Office 安装包包含 Office、Visio 和 Project，由微软提供，无法精�
 
 :::
 
-## 更新通道
+## Update channel
 
 大多数情况下，只需要选择`当前通道`即可，下表列出了通道之间的区别：
 
@@ -49,9 +49,9 @@ Office 安装包包含 Office、Visio 和 Project，由微软提供，无法精�
 
 如果需要了解详细信息，请参阅 [Microsoft 365 应用版的更新通道概述](https://docs.microsoft.com/zh-cn/deployoffice/overview-update-channels)。
 
-## 安装模块
+## Modules
 
-### Office 部署工具
+### Office Deployment Tool
 
 Office 部署工具是微软官方工具，提供了部署 Office 的完整支持，适合所有人使用。
 
@@ -68,7 +68,7 @@ Office 部署工具是微软官方工具，提供了部署 Office 的完整支�
 
 我们建议优先使用 Office 部署工具，如果 Office 部署工具出现了无法解决的问题，或者有特殊需求，才应该选择 Office Tool Plus 作为安装模块。
 
-## 产品
+## Products
 
 购买了 Microsoft 365 的用户，添加产品的时候选择 Microsoft 365 产品即可，具体视你所拥有的授权而选择家庭版、个人版或企业版。
 
@@ -94,7 +94,7 @@ Office 部署工具是微软官方工具，提供了部署 Office 的完整支�
 | Microsoft 365 商业高级版 | O365BusinessRetail |
 :::
 
-### 应用程序
+### Applications
 
 应用程序会随你选择的产品不同而显示不同的内容。
 
@@ -106,7 +106,7 @@ Bing 是一个用于 Chrome 和 Edge 的扩展，若要获取更多信息，请�
 
 有关产品和应用程序的信息，可以查看 [Office Products Information](https://www.coolhub.top/tech-articles/products.html).
 
-## 语言
+## Languages
 
 可以添加一个语言，也可以添加多个语言，列表中的首个完整类型的语言决定了 Shell UI 区域性，包括快捷方式、右键单击关联菜单和工具提示。如果决定要在初始安装后更改 Shell UI 语言，必须重新安装 Office。
 
@@ -123,7 +123,7 @@ Bing 是一个用于 Chrome 和 Edge 的扩展，若要获取更多信息，请�
 | 部分但不包含校对工具　| 包含部分 Office 应用程序的显示语言，但不包含校对工具 |
 | 校对工具　　　　　　　| 仅包含拼写检查器 |
 
-## 安装文件
+## Installation files
 
 默认情况下，当你从 Office Tool Plus 下载 Office 安装包后，Office Tool Plus 会自动识别 Office 安装包信息并显示在此处。
 
