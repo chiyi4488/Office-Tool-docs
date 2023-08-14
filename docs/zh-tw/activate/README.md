@@ -69,10 +69,10 @@ vNext 授權是 Microsoft 訂閱者專用的授權，通常是 Microsoft 365 個
 
 :::
 
-### vNext 许可证
+### vNext 授權
 
-Office Tool Plus 支持查看 vNext 许可证的状态、期限、使用者等信息。您也可以在这里删除不想要/不需要的 vNext 许可证。在删除之前，建议先从 Office 应用程序内退出相应微软账户的登录。
+Office Tool Plus 支援檢視 vNext 授權的狀態、期限、使用者等資訊。透過此功能亦可移除欲刪除的 vNext 授權。刪除前，建議先登出 Office 的 Microsoft 相應帳戶。
 
-### Office 传统许可证
+### Office 傳統授權
 
-Office Tool Plus 支持查看许可证的基础信息，可以针对单个许可证卸载产品密钥，也可以获取安装 ID 以用于电话激活。
+Office Tool Plus 支援檢視此類授權的基本資訊，並針對單個授權移除產品金鑰，亦可取得安裝識別碼以進行電話啟用。
